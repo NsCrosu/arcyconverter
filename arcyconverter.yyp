@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"aff_converter","path":"scripts/aff_converter/aff_converter.yy",},"order":11,},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":10,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":9,},
   ],

@@ -2,8 +2,9 @@
 var newFileOpen = get_save_filename("AFF File|*.aff", "3.aff");
 if (newFileOpen != ""){
 	var f = file_text_open_write(newFileOpen);
-	for(var i = 0; aff[i] != ""; i++){
+	for(var i = 0; i < aff_line_count; i++){
 		file_text_write_string(f, aff[i]);
+		file_text_writeln(f);
 	}
 	file_text_close(f);
 }else{
